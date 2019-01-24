@@ -1,0 +1,109 @@
+<!doctype html>
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Assignment 1</title>
+		<script src="assignment1.js"></script>
+		<style>
+			div{	
+				margin:20px 0;
+			}
+		</style>
+	</head>
+	<body onLoad="Create_Dynamic_Content()">
+		<div class="registration-form">
+			<form name="registration_form" id="registration_form" method="post">
+				<div>
+					<label>
+						First Name:<br>
+						<input type="text" id="firstname" name="firstname"/>
+					</label>
+				</div>
+				<div>
+					<label>
+						Last Name:<br>
+						<input type="text" id="lastname"name="lastname"/>
+					</label>
+				</div>
+				<div>
+					<label>
+						Email:<br>
+						<input type="email" id="email" name="email"/>
+					</label>
+				</div>
+				<div>
+					<label>
+						Contact Number:<br>
+						<input type="phone" id="contact" name="contact"/>
+					</label>
+				</div>
+				<div>
+					<label>
+						Address:<br>
+						<textarea id="address" name="address"></textarea>
+					</label>
+				</div>
+				<div>
+					<label>
+						Username:<br>
+						<input type="text" id="username" name="username"/>
+					</label>
+				</div>
+				<div>
+					<label>
+						Password:<br>
+						<input type="password" id="pass" name="pass"/>
+					</label>
+				</div>
+				<div>
+					<label>
+					Gender:<br>
+						<input type="radio" name="gender" id="male" value="male"></input>
+						<label for="male">Male</label><br>
+						<input type="radio" name="gender" id="female" value="female"></input>
+						<label for="female">Female</label>
+					</label>
+				</div>
+				<div id="qualification_dropdown">
+				
+						Qualification:<br>
+						<!-- <select id="qualification" name="qualification">
+							<option value="10">10th</option>
+							<option value="12">12th</option>
+							<option value="bca">B.C.A</option>
+							<option value="msc(it)">M.sc(IT)</option>
+							<option value="phd">Ph.D.</option>
+						</select> -->
+					
+				</div>
+				<div id="experience_dropdown">
+	
+						Experience:<br>
+						<!-- <select id="experience" name="experience">
+							<option value="none">none</option>
+							<option value="6months">&gt;= 6 months</option>
+							<option value="1years">&gt;= 1 years</option>
+							<option value="2years">&gt;= 2 years</option>
+							<option value="5years">&gt;= 5 years</option>
+							<option value="10years">&gt;= 10 years</option>
+						</select> -->
+					
+				</div>
+				<div id="container">
+					
+						Coding Languages:<br>
+						
+							<!-- <label><input type="checkbox" id="c/c++" name="languages" value="C/C++">C/C++</input></label><br>
+							<label><input type="checkbox" id="java" name="languages" value="Java">Java</input></label><br>
+							<label><input type="checkbox" id="c#" name="languages" value="C#">C#</input></label><br>
+							<label><input type="checkbox" id="php" name="languages" value="PHP">PHP</input></label><br>
+							<label><input type="checkbox" id="python" name="languages" value="Python">Python</input></label> -->
+				</div>
+				<div>
+					<button onclick="display()">Register</button>
+				</div>
+			</form>
+		</div>
+	</body>
+</html>
