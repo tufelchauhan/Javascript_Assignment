@@ -91,13 +91,13 @@ function display(){
 	console.log("Firstname : "+user.firstname);
 	console.log("lastName : "+user.lastname);
 	console.log("Email : "+user.email);
-	console.log("Contact Number " +user.contact);
-	console.log("Address"+user.address);
-	console.log("Username :"+user.username);
+	console.log("Contact Number : " +user.contact);
+	console.log("Address : "+user.address);
+	console.log("Username : "+user.username);
 	console.log("Password : "+user.pass);
 	console.log("Gender : "+user.gender);
 	console.log("Qualification : "+user.qualification);
-	console.log("Experience "+user.experience);
+	console.log("Experience : "+user.experience);
 	console.log("Coding Languages : ");
 	for(var j=0;j<languages.length;j++)
 	{
